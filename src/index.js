@@ -30,7 +30,7 @@ function renderTasks(todos) {
     const checkbox = document.createElement('input');
     const div3 = document.createElement('div');
     div3.className = 'icon';
-    div3.innerHTML = `<i class="fa-solid fa-ellipsis-vertical"></i>`;
+    div3.innerHTML = '<i class="fa-solid fa-ellipsis-vertical"></i>';
     checkbox.type = 'checkbox';
     const div = document.createElement('div');
     button.className = 'button';
