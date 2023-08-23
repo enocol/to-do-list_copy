@@ -22,7 +22,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 # 📖 [To-do List] <a name="about-project"></a>
@@ -114,7 +113,7 @@ You can deploy this project using:
 👤 **Enoh Collins**
 
 - GitHub: [@githubhandle](https://github.com/enocol)
-- Twitter: [@twitterhandle](https://mobile.twitter.com/enocol)
+- Twitter: [@twitterhandle](https://mobile.twitter.com/collins_en25288)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/mwlite/in/enocol)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
