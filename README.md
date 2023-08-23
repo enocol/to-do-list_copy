@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-  <h3><b>Awesome Books With Modules</b></h3>
+  <h3><b>Webpack Boiler plate for frontend development/Todo List</b></h3>
 
 </div>
 
@@ -28,7 +28,7 @@
 
 # 📖 [Awesome Books] <a name="about-project"></a>
 
-**[Awesome Books]** In this project I have introduced javascript modules and ES6 syntax where javascript files are created but inported in the main module using IMPORT statement.
+**[Todo List]** In this project, I have used a webpacl boiler plate created earlier to create a to-do-list app
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,17 +46,13 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[How to use proper ES6 syntax and and import modules.]**
-- **[Using javascript class]**
-- **[Use npm as software packages system.]**
+- **[A webpack boiler plate with src and dist directory]**
+- **[A to-do list dynamically generated from javascript]**
+- **[html file created using the Webpack HTML plug-in]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](Coming Soon...)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,21 +79,21 @@ Install [Node Js](https://nodejs.org/en) and [NPM](https://docs.npmjs.com/cli/v6
 Open your commandline (if your are on windows ) or Terminal (if you are on Mac or Linux) and paste this command:
 
 ```sh
-git clone https://github.com/enocol/Awesomebooks
+git clone https://github.com/enocol/webpack
 ```
 
-then you will see the **Awesomebooks** on your system then type this:
+then you will see the **webpack** on your system then type this:
 
 ```sh
-cd awesome-books-ES6
+cd webpack
 ```
 
 Now you successfully installed it.
 
 ### Usage
 
-Inside **Awesomebooks** you can see `index.html` file double click it
-to open it inside your browser.
+on the terminal of your code editor, type:
+npm start
 
 ### Run tests
 
