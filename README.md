@@ -25,9 +25,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Awesome Books] <a name="about-project"></a>
+# 📖 [To-do List] <a name="about-project"></a>
 
-**[Awesome Books]** In this project, I have used a webpacl boiler plate created earlier to create a to-do-list app
+**[To-Do List]** In this project, I have used a webpacl boiler plate created earlier to create a to-do-list app
 
 ## 🛠 Built With <a name="built-with"></a>
 
