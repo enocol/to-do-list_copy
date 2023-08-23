@@ -1,7 +1,102 @@
-body {
-  background-color: bisque;
+* {
+  box-sizing: border-box;
 }
 
-.hello {
-  color: blue;
+body {
+  background-color: lightgray;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.to-do-list {
+  height: 200px;
+  width: 400px;
+}
+
+.to-do {
+  box-shadow: -1px 5px 6px 5px;
+  background-color: lightgray;
+}
+
+.input {
+  border: none;
+  width: 100%;
+  margin: 2px 0;
+  height: 40px;
+  font-size: 15px;
+  background-color: #fff;
+  padding: 10px;
+  outline: none;
+}
+
+.to-do-list li {
+  list-style: none;
+}
+
+.task {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  height: 40px;
+  padding: 10px;
+  margin: 2px 0;
+}
+
+.heading {
+  padding: 5px;
+  margin: 0 0 2px 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.button-container {
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin: 2px 0;
+  padding: 2px 5px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+.rotate {
+  padding-right: 10px;
+}
+
+.fa-ellipsis-vertical:hover {
+  cursor: col-resize;
 }
