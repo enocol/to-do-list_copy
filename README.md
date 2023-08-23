@@ -27,7 +27,7 @@
 
 # 📖 [Awesome Books] <a name="about-project"></a>
 
-**[Todo List]** In this project, I have used a webpacl boiler plate created earlier to create a to-do-list app
+**[Awesome Books]** In this project, I have used a webpacl boiler plate created earlier to create a to-do-list app
 
 ## 🛠 Built With <a name="built-with"></a>
 
