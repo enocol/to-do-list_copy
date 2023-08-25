@@ -30,7 +30,11 @@ const updateDisplay = () => {
     checkbox.checked = todo.completed;
     checkbox.id = `${index}`;
     checkbox.addEventListener('change', () => {
-      toggleCompletion(index);
+      //toggleCompletion(index);
+      const data = JSON.parse(localStorage.getItem('data')) || [];
+      data[index].completed = !data[index].completed;
+      localStorage.setItem('data', JSON.stringify(data));
+      updateDisplay();
     });
 
     const inputBox = document.createElement('input');
