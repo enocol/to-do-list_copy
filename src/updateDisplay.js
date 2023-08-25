@@ -26,6 +26,7 @@ const updateDisplay = () => {
     checkbox.addEventListener('change', () => {
       const data = JSON.parse(localStorage.getItem('data')) || [];
       data[index].completed = !data[index].completed;
+
       localStorage.setItem('data', JSON.stringify(data));
       updateDisplay();
     });
@@ -34,6 +35,7 @@ const updateDisplay = () => {
     inputBox.value = `${todo.description}`;
     inputBox.setAttribute('readOnly', 'true');
     inputBox.className = 'editable';
+    inputBox.className = todo.completed ? 'completed' : 'editable';
     inputBox.classList.add('noneEdit');
 
     inputBox.addEventListener('focus', (event) => {

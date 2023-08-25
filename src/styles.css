@@ -132,6 +132,13 @@ body {
   color: gray;
 }
 
+.completed {
+  border: none;
+  background-color: transparent;
+  color: gray;
+  text-decoration: line-through;
+}
+
 .editable:focus {
   outline: auto;
   border: 1px solid gray;
