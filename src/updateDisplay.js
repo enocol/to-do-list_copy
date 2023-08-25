@@ -1,6 +1,7 @@
 import toggleCompletion from './toggleCompletion.js';
-import deleteItem from './deleteItem.js';
+//import deleteItem from './deleteItem.js';
 import addToStorage from './addToStogage.js';
+import updateIndices from './updateIndices.js';
 
 const updateDisplay = () => {
   const data = JSON.parse(localStorage.getItem('data')) || [];
@@ -13,8 +14,15 @@ const updateDisplay = () => {
     container.className = 'textContainer';
     const iconDiv = document.createElement('div');
     iconDiv.innerHTML = `<i class="fa-solid fa-trash"></i>`;
-    iconDiv.addEventListener('click', () => {
-      deleteItem(index);
+    iconDiv.addEventListener('click', (index) => {
+      //deleteItem(index);
+      //const deleteItem = (index) => {
+
+      data.splice(index, 1);
+      localStorage.setItem('data', JSON.stringify(data));
+      updateDisplay();
+      updateIndices();
+      //});
     });
 
     const checkbox = document.createElement('input');
