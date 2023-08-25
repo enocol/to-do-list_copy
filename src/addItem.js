@@ -1,5 +1,5 @@
-import { addToStorage } from './addToStogage';
-import { updateDisplay } from './updateDisplay';
+import { addToStorage } from './addToStogage.js';
+import { updateDisplay } from './updateDisplay.js';
 
 export const add = () => {
   const data = JSON.parse(localStorage.getItem('data')) || [];

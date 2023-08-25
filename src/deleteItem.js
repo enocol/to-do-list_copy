@@ -1,5 +1,5 @@
-import { updateDisplay } from './updateDisplay';
-import { updateIndices } from './updateIndices';
+import { updateDisplay } from './updateDisplay.js';
+import { updateIndices } from './updateIndices.js';
 
 export const deleteItem = (index) => {
   const data = JSON.parse(localStorage.getItem('data')) || [];

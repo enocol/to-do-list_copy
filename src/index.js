@@ -1,6 +1,6 @@
 import './styles.css';
-import { add } from './addItem';
-import { updateDisplay } from './updateDisplay';
+import { add } from './addItem.js';
+import { updateDisplay } from './updateDisplay.js';
 
 const button = document.querySelector('.add');
 

@@ -1,6 +1,6 @@
-import { toggleCompletion } from './toggleCompletion';
-import { deleteItem } from './deleteItem';
-import { addToStorage } from './addToStogage';
+import { toggleCompletion } from './toggleCompletion.js';
+import { deleteItem } from './deleteItem.js';
+import { addToStorage } from './addToStogage.js';
 
 export const updateDisplay = () => {
   const data = JSON.parse(localStorage.getItem('data')) || [];

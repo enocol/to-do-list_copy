@@ -1,4 +1,4 @@
-import { updateDisplay } from './updateDisplay';
+import { updateDisplay } from './updateDisplay.js';
 
 export const toggleCompletion = (index) => {
   const data = JSON.parse(localStorage.getItem('data')) || [];
