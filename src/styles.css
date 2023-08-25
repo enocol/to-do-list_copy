@@ -15,9 +15,9 @@ body {
 
 .to-do-list {
   height: auto;
-  width: 400px;
+  width: 500px;
   margin: 0;
-  padding-left: 5px;
+  padding: 0;
 }
 
 .to-do {
@@ -50,6 +50,7 @@ body {
   height: 40px;
   padding: 10px;
   margin: 2px 0;
+  border: 2px solid red;
 }
 
 .heading {
@@ -65,13 +66,6 @@ body {
   width: 100%;
   border: none;
   height: 45px;
-}
-
-.button-container {
-  height: 49px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .taskcontainer {
@@ -102,8 +96,10 @@ body {
   padding-right: 10px;
 }
 
-.fa-ellipsis-vertical:hover {
-  cursor: col-resize;
+.fa-trash:hover {
+  cursor: pointer;
+  color: orangered;
+  font-size: 20px;
 }
 
 .list-container {
@@ -116,8 +112,46 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
-  width: 98%;
+  width: 100%;
   background-color: #fff;
-  margin: 5px;
+  margin: 5px 0;
+  padding-right: 10px;
+}
+
+.inputClass {
+  pointer-events: none;
+}
+
+.noneEdit {
+  outline: none;
+  border: none;
+}
+
+.editable {
+  border: none;
+  background-color: transparent;
+  color: gray;
+}
+
+.editable:focus {
+  outline: auto;
+  border: 1px solid gray;
+  background-color: white;
+  color: #000;
+}
+
+.add {
+  height: 40px;
+  border: none;
+  outline: none;
+  width: auto;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.add:hover {
+  background-color: orangered;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bolder;
 }

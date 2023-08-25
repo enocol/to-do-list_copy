@@ -23,9 +23,6 @@ export const updateDisplay = () => {
     checkbox.checked = todo.completed;
     checkbox.addEventListener('change', () => {
       toggleCompletion(index);
-      if (ckeckBox.checked) {
-        todo[indwx];
-      }
     });
 
     const textSpan = document.createElement('span');
