@@ -1,7 +1,7 @@
 import './styles.css';
 import add from './addItem.js';
 import updateDisplay from './updateDisplay.js';
-import clearAll from './clearAll';
+import clearAll from './clearAll.js';
 
 const button = document.querySelector('.add');
 
