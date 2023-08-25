@@ -1,4 +1,5 @@
 import updateDisplay from './updateDisplay.js';
+import updateIndices from './updateIndices.js';
 
 const clearAll = () => {
   const data = JSON.parse(localStorage.getItem('data')) || [];
@@ -8,6 +9,7 @@ const clearAll = () => {
       const filtered = data.filter((item) => item.completed !== true);
       localStorage.setItem('data', JSON.stringify(filtered));
       updateDisplay();
+      updateIndices();
     }
   });
 };

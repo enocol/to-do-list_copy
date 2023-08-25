@@ -1,5 +1,6 @@
 import addToStorage from './addToStogage.js';
 import updateIndices from './updateIndices.js';
+import updateCompleted from './updateCompleted.js';
 
 const updateDisplay = () => {
   const data = JSON.parse(localStorage.getItem('data')) || [];
@@ -24,10 +25,7 @@ const updateDisplay = () => {
     checkbox.checked = todo.completed;
     checkbox.id = `${index}`;
     checkbox.addEventListener('change', () => {
-      const data = JSON.parse(localStorage.getItem('data')) || [];
-      data[index].completed = !data[index].completed;
-
-      localStorage.setItem('data', JSON.stringify(data));
+      updateCompleted(index);
       updateDisplay();
     });
 
