@@ -6,7 +6,6 @@ const add = () => {
   const input = document.querySelector('.input');
 
   if (input.value === '') {
-    alert('please type something');
     return;
   }
 
