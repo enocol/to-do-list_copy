@@ -13,7 +13,7 @@ export const add = () => {
   const object = {
     index: data.length + 1,
     description: input.value,
-    compelected: false,
+    completed: false,
   };
 
   data.push(object);
