@@ -1,8 +1,8 @@
-import { toggleCompletion } from './toggleCompletion.js';
-import { deleteItem } from './deleteItem.js';
-import { addToStorage } from './addToStogage.js';
+import toggleCompletion from './toggleCompletion.js';
+import deleteItem from './deleteItem.js';
+import addToStorage from './addToStogage.js';
 
-export const updateDisplay = () => {
+const updateDisplay = () => {
   const data = JSON.parse(localStorage.getItem('data')) || [];
   const listTodo = document.querySelector('.to-do-list');
   listTodo.innerHTML = '';
@@ -49,3 +49,5 @@ export const updateDisplay = () => {
     listTodo.appendChild(container);
   });
 };
+
+export default updateDisplay;

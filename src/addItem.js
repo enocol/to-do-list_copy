@@ -1,7 +1,7 @@
-import { addToStorage } from './addToStogage.js';
-import { updateDisplay } from './updateDisplay.js';
+import addToStorage from './addToStogage.js';
+import updateDisplay from './updateDisplay.js';
 
-export const add = () => {
+const add = () => {
   const data = JSON.parse(localStorage.getItem('data')) || [];
   const input = document.querySelector('.input');
 
@@ -21,3 +21,5 @@ export const add = () => {
   updateDisplay();
   input.value = '';
 };
+
+export default add;
