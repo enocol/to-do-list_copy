@@ -12,7 +12,7 @@ const updateDisplay = () => {
     container.className = 'textContainer';
     const iconDiv = document.createElement('div');
     iconDiv.innerHTML = '<i class="fa-solid fa-trash"></i>';
-    iconDiv.addEventListener('click', (index) => {
+    iconDiv.addEventListener('click', () => {
       data.splice(index, 1);
       localStorage.setItem('data', JSON.stringify(data));
       updateDisplay();
